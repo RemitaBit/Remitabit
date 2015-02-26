@@ -12,7 +12,7 @@ namespace bts {
    {
       FC_ASSERT( is_valid( base58str ) );
       std::string prefix( BTS_ADDRESS_PREFIX );
-      if( is_valid( base58str, "BTSX" ) ) prefix = std::string( "BTSX" );
+      if( is_valid( base58str, "RMB" ) ) prefix = std::string( "RMB" );
       std::vector<char> v = fc::from_base58( base58str.substr( prefix.size() ) );
       memcpy( (char*)addr._hash, v.data(), std::min<size_t>( v.size()-4, sizeof( addr ) ) );
    }
@@ -25,7 +25,7 @@ namespace bts {
 
    bool address::is_valid( const std::string& base58str, const std::string& prefix )
    {
-      if( prefix == BTS_ADDRESS_PREFIX && is_valid( base58str, "BTSX" ) )
+      if( prefix == BTS_ADDRESS_PREFIX && is_valid( base58str, "RMB" ) )
           return true;
 
       const size_t prefix_len = prefix.size();

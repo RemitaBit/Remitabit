@@ -9,10 +9,10 @@
 
 #define BTS_BLOCKCHAIN_DATABASE_VERSION                     uint64_t( 199 )
 
-#define BTS_ADDRESS_PREFIX                                  "BTS"
-#define BTS_BLOCKCHAIN_SYMBOL                               "BTS"
-#define BTS_BLOCKCHAIN_NAME                                 "BitShares"
-#define BTS_BLOCKCHAIN_DESCRIPTION                          "Decentralized Exchange"
+#define BTS_ADDRESS_PREFIX                                  "RMBT"
+#define BTS_BLOCKCHAIN_SYMBOL                               "RMBT"
+#define BTS_BLOCKCHAIN_NAME                                 "Remitabit"
+#define BTS_BLOCKCHAIN_DESCRIPTION                          "Peer2Peer Remittance"
 #define BTS_BLOCKCHAIN_PRECISION                            100000
 
 #define BTS_BLOCKCHAIN_MAX_UIA_MARKET_FEE                   10000
@@ -21,10 +21,9 @@
 #define BTS_BLOCKCHAIN_BLOCKS_PER_DAY                       (BTS_BLOCKCHAIN_BLOCKS_PER_HOUR*int64_t(24))
 #define BTS_BLOCKCHAIN_BLOCKS_PER_YEAR                      (BTS_BLOCKCHAIN_BLOCKS_PER_DAY*int64_t(365))
 
-#define BTS_BLOCKCHAIN_NUM_DELEGATES                        uint32_t(101)
+#define BTS_BLOCKCHAIN_NUM_DELEGATES                        uint32_t(3)
 #define BTS_MAX_DELEGATE_PAY_PER_BLOCK                      int64_t( 50 * BTS_BLOCKCHAIN_PRECISION ) // 50 XTS
 #define BTS_BLOCKCHAIN_MAX_UNDO_HISTORY                     BTS_BLOCKCHAIN_BLOCKS_PER_HOUR
-
 #define BTS_BLOCKCHAIN_MAX_SLATE_SIZE                       (BTS_BLOCKCHAIN_NUM_DELEGATES + (BTS_BLOCKCHAIN_NUM_DELEGATES/10))
 #define BTS_BLOCKCHAIN_MAX_TRANSACTION_EXPIRATION_SEC       (60*60*24*2)
 #define BTS_BLOCKCHAIN_MAX_MEMO_SIZE                        19 // bytes

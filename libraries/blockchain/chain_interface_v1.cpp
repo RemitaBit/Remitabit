@@ -12,7 +12,7 @@ namespace bts { namespace blockchain {
 
 bool chain_interface::is_valid_symbol_name_v1( const string& symbol )const
 { try {
-    FC_ASSERT( symbol != "BTSX" );
+    FC_ASSERT( symbol != "RMB" );
 
     if( symbol.size() < ASSET_MIN_SYMBOL_SIZE || symbol.size() > ASSET_MAX_SYMBOL_SIZE )
         return false;

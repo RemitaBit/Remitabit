@@ -68,7 +68,7 @@ namespace bts { namespace blockchain {
        if( get_head_block_num() < BTS_V0_5_0_FORK_BLOCK_NUM )
            return is_valid_symbol_name_v1( symbol );
 
-       FC_ASSERT( symbol != "BTSX" );
+       FC_ASSERT( symbol != "RMB" );
 
        if( symbol.size() < BTS_BLOCKCHAIN_MIN_SYMBOL_SIZE)
          FC_ASSERT(false, "Symbol name too small");
