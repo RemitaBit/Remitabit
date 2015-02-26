@@ -111,6 +111,6 @@ if $0 == __FILE__
   accounts = BitShares::API::Wallet.list_my_accounts()
   first_account = accounts[0]['name']
   puts BitShares::API::Wallet.account_transaction_history(first_account)
-  puts BitShares::API::Wallet.market_order_list("USD", "BTSX")
+  puts BitShares::API::Wallet.market_order_list("USD", "RMB")
   puts BitShares::API::Blockchain.list_assets("USD", 1)
 end
