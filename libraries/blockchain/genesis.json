@@ -1,189 +1,97 @@
 {
-  "timestamp": "2015-02-08T10:00:00",
+  "timestamp": "2015-02-26T00:00:00",
   "market_assets": [{
-      "symbol": "GAS",
-      "name": "Gasoline 87",
-      "description": "1 gallon United States 87 grade gasoline",
-      "precision": 10000
-    },{
-      "symbol": "DIESEL",
-      "name": "Diesel",
-      "description": "1 gallon United States on-highway diesel fuel",
-      "precision": 10000
-    },{
-      "symbol": "KRW",
-      "name": "South Korean Won",
-      "description": "1 South Korean won",
-      "precision": 10000
-    },{
-      "symbol": "BTC",
-      "name": "Bitcoin",
-      "description": "1 bitcoin",
-      "precision": 100000000
-    },{
-      "symbol": "OIL",
-      "name": "Light Sweet Crude Oil",
-      "description": "1 barrel light sweet crude oil",
-      "precision": 10000
-    },{
-      "symbol": "SILVER",
-      "name": "Silver",
-      "description": "1 troy ounce .999 fine silver",
-      "precision": 10000
-    },{
-      "symbol": "GOLD",
-      "name": "Gold",
-      "description": "1 troy ounce .999 fine gold",
-      "precision": 1000000
-    },{
-      "symbol": "TRY",
-      "name": "Turkish Lira",
-      "description": "1 Turkish lira",
-      "precision": 10000
-    },{
-      "symbol": "SGD",
-      "name": "Singapore Dollar",
-      "description": "1 Singapore dollar",
-      "precision": 10000
-    },{
-      "symbol": "HKD",
-      "name": "Hong Kong Dollar",
-      "description": "1 Hong Kong dollar",
-      "precision": 10000
-    },{
-      "symbol": "RUB",
-      "name": "Russian Ruble",
-      "description": "1 Russian ruble",
-      "precision": 10000
-    },{
-      "symbol": "SEK",
-      "name": "Swedish Krona",
-      "description": "1 Swedish krona",
-      "precision": 10000
-    },{
-      "symbol": "NZD",
-      "name": "New Zealand Dollar",
-      "description": "1 New Zealand dollar",
-      "precision": 10000
-    },{
-      "symbol": "CNY",
-      "name": "Chinese Yuan",
-      "description": "1 Chinese yuan",
-      "precision": 10000
-    },{
-      "symbol": "MXN",
-      "name": "Mexican Peso",
-      "description": "1 Mexican peso",
-      "precision": 10000
-    },{
-      "symbol": "CAD",
-      "name": "Canadian Dollar",
-      "description": "1 Canadian dollar",
-      "precision": 10000
-    },{
-      "symbol": "CHF",
-      "name": "Swiss Franc",
-      "description": "1 Swiss franc",
-      "precision": 10000
-    },{
-      "symbol": "AUD",
-      "name": "Australian Dollar",
-      "description": "1 Australian dollar",
-      "precision": 10000
-    },{
-      "symbol": "GBP",
-      "name": "Pound sterling",
-      "description": "1 pound sterling",
-      "precision": 10000
-    },{
-      "symbol": "JPY",
-      "name": "Japanese Yen",
-      "description": "1 Japanese yen",
-      "precision": 100
-    },{
-      "symbol": "EUR",
-      "name": "Euro",
-      "description": "1 euro",
-      "precision": 10000
-    },{
-      "symbol": "USD",
-      "name": "United States Dollar",
-      "description": "1 United States dollar",
-      "precision": 10000
-    },{
-      "symbol": "PHP",
-      "name": "Philippine Peso",
-      "description": "1 Philippine peso",
-      "precision": 10000
-    }
-  ],
+      "symbol": "GAS",       "name": "Gasoline 87",       "description": "1 gallon United States 87 grade gasoline",       "precision": 10000     },{
+      "symbol": "DIESEL",       "name": "Diesel",       "description": "1 gallon United States on-highway diesel fuel",       "precision": 10000     },{
+      "symbol": "KRW",       "name": "South Korean Won",       "description": "1 South Korean won",       "precision": 10000     },{
+      "symbol": "BTC",       "name": "Bitcoin",       "description": "1 bitcoin",       "precision": 100000000     },{ 
+      "symbol": "OIL",       "name": "Light Sweet Crude Oil",       "description": "1 barrel light sweet crude oil",       "precision": 10000     },{
+      "symbol": "SILVER",      "name": "Silver",       "description": "1 troy ounce .999 fine silver",       "precision": 10000     },{
+      "symbol": "GOLD",        "name": "Gold",       "description": "1 troy ounce .999 fine gold",       "precision": 1000000     },{
+      "symbol": "TRY",      "name": "Turkish Lira",       "description": "1 Turkish lira",       "precision": 10000     },{
+      "symbol": "SGD",       "name": "Singapore Dollar",       "description": "1 Singapore dollar",       "precision": 10000     },{ 
+      "symbol": "HKD",      "name": "Hong Kong Dollar",       "description": "1 Hong Kong dollar",       "precision": 10000     },{
+      "symbol": "RUB",       "name": "Russian Ruble",       "description": "1 Russian ruble",       "precision": 10000     },{ 
+      "symbol": "SEK",       "name": "Swedish Krona",       "description": "1 Swedish krona",       "precision": 10000     },{
+      "symbol": "NZD",       "name": "New Zealand Dollar",       "description": "1 New Zealand dollar",       "precision": 10000     },{
+      "symbol": "CNY",      "name": "Chinese Yuan",       "description": "1 Chinese yuan",       "precision": 10000     },{
+      "symbol": "MXN",       "name": "Mexican Peso",       "description": "1 Mexican peso",       "precision": 10000     },{
+      "symbol": "CAD",       "name": "Canadian Dollar",       "description": "1 Canadian dollar",       "precision": 10000     },{
+      "symbol": "CHF",      "name": "Swiss Franc",       "description": "1 Swiss franc",       "precision": 10000     },{
+      "symbol": "AUD",       "name": "Australian Dollar",       "description": "1 Australian dollar",       "precision": 10000    },{
+      "symbol": "GBP",       "name": "Pound sterling",       "description": "1 pound sterling",       "precision": 10000     },{ 
+      "symbol": "JPY",       "name": "Japanese Yen",       "description": "1 Japanese yen",       "precision": 100     },{
+      "symbol": "EUR",       "name": "Euro",       "description": "1 euro",       "precision": 10000     },{
+      "symbol": "USD",       "name": "United States Dollar",       "description": "1 United States dollar",       "precision": 10000     },{
+      "symbol": "PHP",       "name": "Philippine Peso",       "description": "1 Philippine peso",       "precision": 10000     } ],
   "delegates": [
         {
-            "owner": "RMBT8YH5ow9yb5yXRiBLrkBk1UJ3mvKEYA1bvyAvTq8556zvVrYavz",
-            "name": "remit-init0"
+            "owner": "RMBT6UkVPZzo9uStQYkJ61vBknrr4VBeSWmUZa44YddidHn8s9xrrV",
+            "name": "remitinit0"
         },
         {
-            "owner": "RMBT8KTdKT48FjN8TgHN1F9UQsGwLEgZijfMGsQ5UMM34dtxveqmX6",
-            "name": "remit-init1"
+            "owner": "RMBT52wiPLuCsHA8J6G5v3FVoe9pmBtPdmoy7rhButwn2U4CNynJE4",
+            "name": "remitinit1"
         },
         {
-            "owner": "RMBT8GpssDFK2dP6pMTJt4f9iHZtRjUh5fZmPBMRJXrVBgdcjaBmGp",
-            "name": "remit-init2"
+            "owner": "RMBT5WzSnW3Y15EtSzsRQWiwNMMpHFGAPb5BBTwo4tfToTLi1EXv4R",
+            "name": "remitinit2"
         },
         {
-            "owner": "RMBT72UoD436LNKeEefYNCZoELd28dVMJnD6B6YWCgXEECib5zKxAy",
-            "name": "remit-init3"
+            "owner": "RMBT5QHMDvG1PHsWseAGZoAvSSgMeHRXhnQrJW8dmouv8zV9493PTi",
+            "name": "remitinit3"
         },
-	{
-            "owner": "RMBT8EffxTMVkBAUNT8jDq5oKPpzGUPzzqSwAqDPnS1qZyKzq9Xc4Q",
-            "name": "remit-init4"
+        {
+            "owner": "RMBT8ZW4gLG54zZ4uHFstu21znZY92WMURJ8fwzfQKTv1MUtk23yBe",
+            "name": "remitinit4"
         }
-
-
 ],
-
-
   "initial_balances": [
     {
-      "raw_address": "PaMDzPVrRm4AjkznGqjSHNuKxWfCHZNsGK",
+      "raw_address": "PogNCF1vfznbFhS2NooQhsgRpYQUB2Smz7",
       "balance": 1000000000000
     },
     {
-      "raw_address": "PvfDtFNMWFwzY13hjmqkBUwxkETqn3yPZ5",
+      "raw_address": "Po2N5xHP4cnd1JRZo6NpbjXmeLB3ep8Cun",
       "balance": 1000000000000
     },
     {
-      "raw_address": "PiPadPmZAP4kcYHLs99289DZe8kdUHWwqN",
+      "raw_address": "PZ1ykjXXksxakFGFN2SRhPAA3jqDRCzS8H",
       "balance": 1000000000000
     },
     {
-      "raw_address": "Pgvb7vpZhLWxdqPJuCpf8uc8Z32LNDjPs9",
+      "raw_address": "PYe6ss7wZHS89nWJxfY5HBkmPrqh3Hh1EB",
       "balance": 1000000000000
     },
     {
-      "raw_address": "PqSC7qe31i26Wtvnk3ZwCn3j3MZdxZg5pD",
+      "raw_address": "PaKjEHviRcMG2P7EppDfGi6hwMN5SVZ6Jx",
       "balance": 1000000000000
     },
 
 
+
+
     {
-      "raw_address": "PYJKB6soha4Qr9NGpCADzNUw6eqdRTCQ2D",
-      "balance": 1250000000000
+      "raw_address": "PcLz8sRoCQ5qBYofJhjcoFbZdFbxVkPQ6J",
+      "balance": 2000000000000
     },
     {
-      "raw_address": "Pm11fihfzApzCESsMeZga6SSZRq45DLdUM",
-      "balance": 1250000000000
+      "raw_address": "Ps6UbS2QpFjMx1HsnWt5NzhmiQchbfafki",
+      "balance": 2000000000000
     },
     {
-      "raw_address": "Pnup2qasRCRDMRUid1w5JJcc94zPDiSaSQ",
-      "balance": 1250000000000
+      "raw_address": "PuKKDEdeqEaKitvFDs4kzqmFRjoZmF2HEU",
+      "balance": 2000000000000
     },
     {
-      "raw_address": "PhBnMEY9MSMx1z7nZixgLA95ecoUSmVvzo",
-      "balance": 1250000000000
+      "raw_address": "Pq2Sb1yXrJD5gbtdshogBhPdUvXuLZRa35",
+      "balance": 2000000000000
+    },
+    {
+      "raw_address": "PjfVkjd7KxEyGGPNjm24Ggda2iGg8u9b7u",
+      "balance": 7000000000000
     }
 
 
   ]
 }
-
